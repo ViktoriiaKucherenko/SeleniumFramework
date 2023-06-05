@@ -10,6 +10,14 @@ public class FirstTest {
         System.setProperty("webdriver.chrome.driver", "C:\\ProjectAutomation\\TestProject\\src\\test\\resources\\executables\\chromedriver.exe");
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://mvnrepository.com/");
-        driver.manage().window().maximize();
+
+    }
+}
+    @Test
+    public void openBrowser1(){
+        System.setProperty("webdriver.chrome.driver", "C:\\ProjectAutomation\\TestProject\\src\\test\\resources\\executables\\chromedriver.exe");
+        ChromeDriver driver = new ChromeDriver();
+        driver.get("https://mvnrepository.com/");
+
     }
 }

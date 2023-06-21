@@ -12,7 +12,7 @@ public class FirstTest {
         driver.get("https://mvnrepository.com/");
 
     }
-}
+
     @Test
     public void openBrowser1(){
         System.setProperty("webdriver.chrome.driver", "C:\\ProjectAutomation\\TestProject\\src\\test\\resources\\executables\\chromedriver.exe");

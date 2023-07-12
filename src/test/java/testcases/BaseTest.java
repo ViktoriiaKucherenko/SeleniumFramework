@@ -20,6 +20,6 @@ public class BaseTest {
     }
     @AfterMethod
     public void ChromeClose(){
-        driver.close();
+        driver.quit();
     }
 }

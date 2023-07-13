@@ -8,22 +8,19 @@ public class SignInPage extends BaseMain{
         super(driver);
     }
     //locators
-    public By EmailField = By.xpath("//input[@name='username']");
-    public By PasswordField = By.xpath("//input[@name='password']");
-    public By SubmitSigningInButton = By.xpath("//button[contains(text(),'Увійти')]");
-    public By UserValidationError = By.xpath("//div[contains(text(),\"Будь ласка, введіть правильні ім'я користувача та \")]");
+    public By EmailField = By.xpath("//input[@id='email']");
+    public By PasswordField = By.xpath("//input[@id='password']");
+    public By SubmitSigningInButton = By.xpath("//button[@type='submit']");
+    public By UserValidationError = By.xpath("//p[contains(text(),'Error: email is incorrect')]");
 
     //parameters
-    public String UserEmail = "TestEmail";
+    public String UserEmail = "TestEmail@testmail.com";
     public String UserPassword = "pwd";
 
-    public void EnterUserDataAndSubmit() throws InterruptedException {
+    public void EnterUserDataAndSubmit(){
         driver.findElement(EmailField).sendKeys(UserEmail);
-        Thread.sleep(2000);
         driver.findElement(PasswordField).sendKeys(UserPassword);
-        Thread.sleep(2000);
         driver.findElement(SubmitSigningInButton).click();
-        Thread.sleep(5000);
     }
     public void SingInFieldsDisplayingCheck(){
         System.out.println(driver.findElement(EmailField).isDisplayed());

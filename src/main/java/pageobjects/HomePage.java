@@ -10,25 +10,20 @@ public class HomePage extends BaseMain{
         super(driver);
     }
     //locators
-    public String websiteURL = "https://shafa.ua/";
+    //public String websiteURL = "https://shafa.ua/";
     public String websiteURLfork = "https://test.my-fork.com/";
-    public By UserSignInButton = By.xpath("//a[contains(text(),'Вхід')]");
+    public By UserSignInButton = By.xpath("//a[@href='https://test.my-fork.com/login']");
     public By UserSignUpButton = By.xpath("//a[@href='https://test.my-fork.com/register']");
 
-    public void OpenFullPage() throws InterruptedException {
-        driver.get(websiteURL);
-        driver.manage().window().maximize();
-        Thread.sleep(3000);
-    }
-    public void TakeMeToSignInPage() throws InterruptedException {
-        driver.get(websiteURL);
-        driver.manage().window().maximize();
-        driver.findElement(UserSignInButton).click();
-        Thread.sleep(3000);
-    }public void TakeMeToSignUpPage() throws InterruptedException {
+    public void OpenFullPage(){
         driver.get(websiteURLfork);
-        //driver.manage().window().maximize();
+    }
+    public void TakeMeToSignInPage(){
+        driver.get(websiteURLfork);
+        driver.findElement(UserSignInButton).click();
+
+    }public void TakeMeToSignUpPage(){
+        driver.get(websiteURLfork);
         driver.findElement(UserSignUpButton).click();
-        Thread.sleep(3000);
     }
 }

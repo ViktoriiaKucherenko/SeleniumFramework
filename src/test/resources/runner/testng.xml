@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" parallel="classes" thread-count="3">
+    <test name="Homework" >
+        <classes>
+            <class name="testcases.FirstTest" />
+            <class name="testcases.JavaAndSeleniumPracticeTest" />
+            <class name="testcases.AssertsTest" />
+        </classes>
+    </test>
+</suite>

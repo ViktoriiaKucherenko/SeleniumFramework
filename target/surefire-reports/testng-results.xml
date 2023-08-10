@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-10T13:43:03 EEST" name="Command line suite" finished-at="2023-08-10T13:47:01 EEST" duration-ms="237440">
+    <groups>
+    </groups>
+    <test started-at="2023-08-10T13:43:03 EEST" name="Command line test" finished-at="2023-08-10T13:47:01 EEST" duration-ms="237440">
+      <class name="testcases.JavaAndSeleniumPracticeTest">
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.JavaAndSeleniumPracticeTest@3c153a1]" started-at="2023-08-10T13:46:36 EEST" name="ChromeSetUp" finished-at="2023-08-10T13:46:37 EEST" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeSetUp -->
+        <test-method signature="ValidateJobList()[pri:0, instance:testcases.JavaAndSeleniumPracticeTest@3c153a1]" started-at="2023-08-10T13:46:37 EEST" name="ValidateJobList" finished-at="2023-08-10T13:47:01 EEST" duration-ms="23505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateJobList -->
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.JavaAndSeleniumPracticeTest@3c153a1]" started-at="2023-08-10T13:47:01 EEST" name="ChromeClose" finished-at="2023-08-10T13:47:01 EEST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeClose -->
+      </class> <!-- testcases.JavaAndSeleniumPracticeTest -->
+      <class name="testcases.AssertsTest">
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.AssertsTest@3ec300f1]" started-at="2023-08-10T13:43:04 EEST" name="ChromeSetUp" finished-at="2023-08-10T13:43:07 EEST" duration-ms="3021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeSetUp -->
+        <test-method signature="hardAssertsMainPage()[pri:0, instance:testcases.AssertsTest@3ec300f1]" started-at="2023-08-10T13:43:07 EEST" name="hardAssertsMainPage" finished-at="2023-08-10T13:43:25 EEST" duration-ms="18550" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Sign Out] but found [Sign Up]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Sign Out] but found [Sign Up]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testcases.AssertsTest.hardAssertsMainPage(AssertsTest.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hardAssertsMainPage -->
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.AssertsTest@3ec300f1]" started-at="2023-08-10T13:43:25 EEST" name="ChromeClose" finished-at="2023-08-10T13:43:25 EEST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeClose -->
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.AssertsTest@3ec300f1]" started-at="2023-08-10T13:43:25 EEST" name="ChromeSetUp" finished-at="2023-08-10T13:43:27 EEST" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeSetUp -->
+        <test-method signature="softAssertsMainAndSignInPages()[pri:0, instance:testcases.AssertsTest@3ec300f1]" started-at="2023-08-10T13:43:27 EEST" name="softAssertsMainAndSignInPages" finished-at="2023-08-10T13:43:58 EEST" duration-ms="31658" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Sign Out] but found [Sign Up],
+expected [false] but found [true],
+expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Sign Out] but found [Sign Up],
+expected [false] but found [true],
+expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testcases.AssertsTest.softAssertsMainAndSignInPages(AssertsTest.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- softAssertsMainAndSignInPages -->
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.AssertsTest@3ec300f1]" started-at="2023-08-10T13:43:58 EEST" name="ChromeClose" finished-at="2023-08-10T13:43:59 EEST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeClose -->
+      </class> <!-- testcases.AssertsTest -->
+      <class name="testcases.FirstTest">
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:43:59 EEST" name="ChromeSetUp" finished-at="2023-08-10T13:44:00 EEST" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeSetUp -->
+        <test-method signature="EnterUserDataSubmit()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:44:00 EEST" name="EnterUserDataSubmit" finished-at="2023-08-10T13:44:26 EEST" duration-ms="25632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUserDataSubmit -->
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:44:26 EEST" name="ChromeClose" finished-at="2023-08-10T13:44:26 EEST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeClose -->
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:44:26 EEST" name="ChromeSetUp" finished-at="2023-08-10T13:44:27 EEST" duration-ms="1243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeSetUp -->
+        <test-method signature="IncorrectEmailError()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:44:27 EEST" name="IncorrectEmailError" finished-at="2023-08-10T13:44:55 EEST" duration-ms="28016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectEmailError -->
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:44:55 EEST" name="ChromeClose" finished-at="2023-08-10T13:44:56 EEST" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeClose -->
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:44:56 EEST" name="ChromeSetUp" finished-at="2023-08-10T13:44:57 EEST" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeSetUp -->
+        <test-method signature="OpenSignInPage()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:44:57 EEST" name="OpenSignInPage" finished-at="2023-08-10T13:45:22 EEST" duration-ms="25087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenSignInPage -->
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:45:22 EEST" name="ChromeClose" finished-at="2023-08-10T13:45:23 EEST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeClose -->
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:45:23 EEST" name="ChromeSetUp" finished-at="2023-08-10T13:45:24 EEST" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeSetUp -->
+        <test-method signature="OpenWebsite()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:45:24 EEST" name="OpenWebsite" finished-at="2023-08-10T13:45:48 EEST" duration-ms="24025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWebsite -->
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:45:48 EEST" name="ChromeClose" finished-at="2023-08-10T13:45:48 EEST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeClose -->
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:45:48 EEST" name="ChromeSetUp" finished-at="2023-08-10T13:45:49 EEST" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeSetUp -->
+        <test-method signature="ValidateFieldsAndButtonDisplaying()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:45:49 EEST" name="ValidateFieldsAndButtonDisplaying" finished-at="2023-08-10T13:46:14 EEST" duration-ms="24886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFieldsAndButtonDisplaying -->
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:46:14 EEST" name="ChromeClose" finished-at="2023-08-10T13:46:14 EEST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeClose -->
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:46:14 EEST" name="ChromeSetUp" finished-at="2023-08-10T13:46:15 EEST" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeSetUp -->
+        <test-method signature="test()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:46:15 EEST" name="test" finished-at="2023-08-10T13:46:36 EEST" duration-ms="20475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@6156496]" started-at="2023-08-10T13:46:36 EEST" name="ChromeClose" finished-at="2023-08-10T13:46:36 EEST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeClose -->
+      </class> <!-- testcases.FirstTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

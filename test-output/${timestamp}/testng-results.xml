@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-10T15:00:19 EEST" name="Suite1" finished-at="2023-08-10T15:03:16 EEST" duration-ms="177290">
+  <suite started-at="2023-08-11T17:24:42 EEST" name="Suite1" finished-at="2023-08-11T17:25:20 EEST" duration-ms="37593">
     <groups>
     </groups>
-    <test started-at="2023-08-10T15:00:19 EEST" name="Homework" finished-at="2023-08-10T15:03:16 EEST" duration-ms="177290">
+    <test started-at="2023-08-11T17:24:42 EEST" name="Homework" finished-at="2023-08-11T17:25:20 EEST" duration-ms="37593">
       <class name="testcases.JavaAndSeleniumPracticeTest">
-        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.JavaAndSeleniumPracticeTest@31368b99]" started-at="2023-08-10T15:00:19 EEST" name="ChromeSetUp" finished-at="2023-08-10T15:00:23 EEST" duration-ms="3891" status="PASS">
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.JavaAndSeleniumPracticeTest@31368b99]" started-at="2023-08-11T17:24:42 EEST" name="ChromeSetUp" finished-at="2023-08-11T17:24:46 EEST" duration-ms="3400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeSetUp -->
-        <test-method signature="ValidateJobList()[pri:0, instance:testcases.JavaAndSeleniumPracticeTest@31368b99]" started-at="2023-08-10T15:00:23 EEST" name="ValidateJobList" finished-at="2023-08-10T15:01:00 EEST" duration-ms="37082" status="PASS">
+        <test-method signature="ValidateJobList()[pri:0, instance:testcases.JavaAndSeleniumPracticeTest@31368b99]" started-at="2023-08-11T17:24:46 EEST" name="ValidateJobList" finished-at="2023-08-11T17:24:51 EEST" duration-ms="5207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateJobList -->
-        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.JavaAndSeleniumPracticeTest@31368b99]" started-at="2023-08-10T15:01:00 EEST" name="ChromeClose" finished-at="2023-08-10T15:01:00 EEST" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.JavaAndSeleniumPracticeTest@31368b99]" started-at="2023-08-11T17:24:51 EEST" name="ChromeClose" finished-at="2023-08-11T17:24:52 EEST" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeClose -->
       </class> <!-- testcases.JavaAndSeleniumPracticeTest -->
       <class name="testcases.AssertsTest">
-        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.AssertsTest@1725dc0f]" started-at="2023-08-10T15:00:19 EEST" name="ChromeSetUp" finished-at="2023-08-10T15:00:23 EEST" duration-ms="3839" status="PASS">
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.AssertsTest@1725dc0f]" started-at="2023-08-11T17:24:42 EEST" name="ChromeSetUp" finished-at="2023-08-11T17:24:46 EEST" duration-ms="3385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeSetUp -->
-        <test-method signature="hardAssertsMainPage()[pri:0, instance:testcases.AssertsTest@1725dc0f]" started-at="2023-08-10T15:00:23 EEST" name="hardAssertsMainPage" finished-at="2023-08-10T15:01:04 EEST" duration-ms="41506" status="FAIL">
+        <test-method signature="hardAssertsMainPage()[pri:0, instance:testcases.AssertsTest@1725dc0f]" started-at="2023-08-11T17:24:46 EEST" name="hardAssertsMainPage" finished-at="2023-08-11T17:24:51 EEST" duration-ms="4696" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Sign Out] but found [Sign Up]]]>
@@ -58,15 +58,15 @@ at java.base/java.lang.Thread.run(Thread.java:1623)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hardAssertsMainPage -->
-        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.AssertsTest@1725dc0f]" started-at="2023-08-10T15:01:04 EEST" name="ChromeClose" finished-at="2023-08-10T15:01:04 EEST" duration-ms="352" status="PASS">
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.AssertsTest@1725dc0f]" started-at="2023-08-11T17:24:51 EEST" name="ChromeClose" finished-at="2023-08-11T17:24:51 EEST" duration-ms="696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeClose -->
-        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.AssertsTest@1725dc0f]" started-at="2023-08-10T15:01:04 EEST" name="ChromeSetUp" finished-at="2023-08-10T15:01:05 EEST" duration-ms="948" status="PASS">
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.AssertsTest@1725dc0f]" started-at="2023-08-11T17:24:51 EEST" name="ChromeSetUp" finished-at="2023-08-11T17:24:53 EEST" duration-ms="1509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeSetUp -->
-        <test-method signature="softAssertsMainAndSignInPages()[pri:0, instance:testcases.AssertsTest@1725dc0f]" started-at="2023-08-10T15:01:05 EEST" name="softAssertsMainAndSignInPages" finished-at="2023-08-10T15:01:42 EEST" duration-ms="36923" status="FAIL">
+        <test-method signature="softAssertsMainAndSignInPages()[pri:0, instance:testcases.AssertsTest@1725dc0f]" started-at="2023-08-11T17:24:53 EEST" name="softAssertsMainAndSignInPages" finished-at="2023-08-11T17:25:01 EEST" duration-ms="8140" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -101,81 +101,81 @@ at java.base/java.lang.Thread.run(Thread.java:1623)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- softAssertsMainAndSignInPages -->
-        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.AssertsTest@1725dc0f]" started-at="2023-08-10T15:01:42 EEST" name="ChromeClose" finished-at="2023-08-10T15:01:43 EEST" duration-ms="402" status="PASS">
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.AssertsTest@1725dc0f]" started-at="2023-08-11T17:25:01 EEST" name="ChromeClose" finished-at="2023-08-11T17:25:01 EEST" duration-ms="538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeClose -->
       </class> <!-- testcases.AssertsTest -->
       <class name="testcases.FirstTest">
-        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:00:19 EEST" name="ChromeSetUp" finished-at="2023-08-10T15:00:23 EEST" duration-ms="3836" status="PASS">
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:24:42 EEST" name="ChromeSetUp" finished-at="2023-08-11T17:24:46 EEST" duration-ms="3354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeSetUp -->
-        <test-method signature="EnterUserDataSubmit()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:00:23 EEST" name="EnterUserDataSubmit" finished-at="2023-08-10T15:00:57 EEST" duration-ms="34053" status="PASS">
+        <test-method signature="EnterUserDataSubmit()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:24:46 EEST" name="EnterUserDataSubmit" finished-at="2023-08-11T17:24:51 EEST" duration-ms="5448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterUserDataSubmit -->
-        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:00:57 EEST" name="ChromeClose" finished-at="2023-08-10T15:00:57 EEST" duration-ms="339" status="PASS">
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:24:51 EEST" name="ChromeClose" finished-at="2023-08-11T17:24:52 EEST" duration-ms="602" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeClose -->
-        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:00:57 EEST" name="ChromeSetUp" finished-at="2023-08-10T15:00:58 EEST" duration-ms="1277" status="PASS">
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:24:52 EEST" name="ChromeSetUp" finished-at="2023-08-11T17:24:53 EEST" duration-ms="1563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeSetUp -->
-        <test-method signature="IncorrectEmailError()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:00:58 EEST" name="IncorrectEmailError" finished-at="2023-08-10T15:01:33 EEST" duration-ms="35053" status="PASS">
+        <test-method signature="IncorrectEmailError()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:24:53 EEST" name="IncorrectEmailError" finished-at="2023-08-11T17:25:01 EEST" duration-ms="7980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IncorrectEmailError -->
-        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:01:33 EEST" name="ChromeClose" finished-at="2023-08-10T15:01:34 EEST" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:25:01 EEST" name="ChromeClose" finished-at="2023-08-11T17:25:02 EEST" duration-ms="709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeClose -->
-        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:01:34 EEST" name="ChromeSetUp" finished-at="2023-08-10T15:01:35 EEST" duration-ms="991" status="PASS">
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:25:02 EEST" name="ChromeSetUp" finished-at="2023-08-11T17:25:03 EEST" duration-ms="928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeSetUp -->
-        <test-method signature="OpenSignInPage()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:01:35 EEST" name="OpenSignInPage" finished-at="2023-08-10T15:01:57 EEST" duration-ms="22511" status="PASS">
+        <test-method signature="OpenSignInPage()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:25:03 EEST" name="OpenSignInPage" finished-at="2023-08-11T17:25:06 EEST" duration-ms="2445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenSignInPage -->
-        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:01:57 EEST" name="ChromeClose" finished-at="2023-08-10T15:01:57 EEST" duration-ms="262" status="PASS">
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:25:06 EEST" name="ChromeClose" finished-at="2023-08-11T17:25:06 EEST" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeClose -->
-        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:01:57 EEST" name="ChromeSetUp" finished-at="2023-08-10T15:01:58 EEST" duration-ms="1019" status="PASS">
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:25:06 EEST" name="ChromeSetUp" finished-at="2023-08-11T17:25:07 EEST" duration-ms="1012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeSetUp -->
-        <test-method signature="OpenWebsite()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:01:58 EEST" name="OpenWebsite" finished-at="2023-08-10T15:02:22 EEST" duration-ms="23722" status="PASS">
+        <test-method signature="OpenWebsite()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:25:07 EEST" name="OpenWebsite" finished-at="2023-08-11T17:25:09 EEST" duration-ms="1980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenWebsite -->
-        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:02:22 EEST" name="ChromeClose" finished-at="2023-08-10T15:02:22 EEST" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:25:09 EEST" name="ChromeClose" finished-at="2023-08-11T17:25:09 EEST" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeClose -->
-        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:02:22 EEST" name="ChromeSetUp" finished-at="2023-08-10T15:02:24 EEST" duration-ms="1091" status="PASS">
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:25:09 EEST" name="ChromeSetUp" finished-at="2023-08-11T17:25:10 EEST" duration-ms="1119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeSetUp -->
-        <test-method signature="ValidateFieldsAndButtonDisplaying()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:02:24 EEST" name="ValidateFieldsAndButtonDisplaying" finished-at="2023-08-10T15:02:45 EEST" duration-ms="21724" status="PASS">
+        <test-method signature="ValidateFieldsAndButtonDisplaying()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:25:10 EEST" name="ValidateFieldsAndButtonDisplaying" finished-at="2023-08-11T17:25:13 EEST" duration-ms="2702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateFieldsAndButtonDisplaying -->
-        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:02:45 EEST" name="ChromeClose" finished-at="2023-08-10T15:02:45 EEST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:25:13 EEST" name="ChromeClose" finished-at="2023-08-11T17:25:13 EEST" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeClose -->
-        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:02:45 EEST" name="ChromeSetUp" finished-at="2023-08-10T15:02:47 EEST" duration-ms="1082" status="PASS">
+        <test-method is-config="true" signature="ChromeSetUp()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:25:13 EEST" name="ChromeSetUp" finished-at="2023-08-11T17:25:14 EEST" duration-ms="1003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeSetUp -->
-        <test-method signature="test()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:02:47 EEST" name="test" finished-at="2023-08-10T15:03:16 EEST" duration-ms="29060" status="PASS">
+        <test-method signature="test()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:25:14 EEST" name="test" finished-at="2023-08-11T17:25:20 EEST" duration-ms="5506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-10T15:03:16 EEST" name="ChromeClose" finished-at="2023-08-10T15:03:16 EEST" duration-ms="384" status="PASS">
+        <test-method is-config="true" signature="ChromeClose()[pri:0, instance:testcases.FirstTest@3c419631]" started-at="2023-08-11T17:25:20 EEST" name="ChromeClose" finished-at="2023-08-11T17:25:20 EEST" duration-ms="391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeClose -->

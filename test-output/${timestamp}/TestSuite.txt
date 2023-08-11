@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 178.061 s <<< FAILURE! - in TestSuite
-hardAssertsMainPage(testcases.AssertsTest)  Time elapsed: 5.836 s  <<< FAILURE!
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 38.312 s <<< FAILURE! - in TestSuite
+hardAssertsMainPage(testcases.AssertsTest)  Time elapsed: 4.696 s  <<< FAILURE!
 java.lang.AssertionError: expected [Sign Out] but found [Sign Up]
 	at testcases.AssertsTest.hardAssertsMainPage(AssertsTest.java:46)
 
-softAssertsMainAndSignInPages(testcases.AssertsTest)  Time elapsed: 7.693 s  <<< FAILURE!
+softAssertsMainAndSignInPages(testcases.AssertsTest)  Time elapsed: 7.47 s  <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
 	expected [Sign Out] but found [Sign Up],

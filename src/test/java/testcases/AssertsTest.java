@@ -27,7 +27,7 @@ public class AssertsTest extends BaseTest {
     public String mainMenuElementLocator3 = "//div[@class='menu']/a[3]";
     public String mainMenuElementLocator4 = "//div[@class='menu']/a[4]";
 
-    @Test
+    @Test (groups = {"group2"})
     public void hardAssertsMainPage() {
         homePage.OpenFullPage();
         List<WebElement> mainMenuElements = driver.findElements(By.xpath("//div[@class='menu']/a"));
@@ -54,7 +54,7 @@ public class AssertsTest extends BaseTest {
     public boolean actualLoginButtonDisplay;
     public boolean expectedLoginButtonDisplay = false;
 
-    @Test
+    @Test (groups = {"group2"})
     public void softAssertsMainAndSignInPages(){
         homePage.OpenFullPage();
         List<WebElement> mainMenuElements = driver.findElements(By.xpath("//div[@class='menu']/a"));

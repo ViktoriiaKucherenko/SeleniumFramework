@@ -14,7 +14,7 @@ public class BaseTest {
     HomePage homePage;
     SignInPage signInPage;
     BaseMain baseMain;
-    @BeforeMethod
+    @BeforeMethod (groups = {"group1", "group2"}, alwaysRun = true)
     public void ChromeSetUp(){
         System.setProperty("webdriver.chrome.driver", "C:\\ProjectAutomation\\TestProject\\src\\test\\resources\\executables\\chromedriver.exe");
         driver = new ChromeDriver();
@@ -24,7 +24,7 @@ public class BaseTest {
         driver.manage().window().maximize();
         //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
-    @AfterMethod
+    @AfterMethod (groups = {"group1", "group2"}, alwaysRun = true)
     public void ChromeClose(){
         driver.quit();
     }

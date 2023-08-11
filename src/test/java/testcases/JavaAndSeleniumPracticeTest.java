@@ -11,8 +11,9 @@ import java.util.List;
 
 public class JavaAndSeleniumPracticeTest extends BaseTest{
 
-    @Test
+    @Test(priority = 1, groups = {"group1", "group2"})
     public void ValidateJobList() throws InterruptedException {
+        System.out.println("test7");
         homePage.TakeMeToSignUpPage();
         WebElement searchJobDropdownElement;
         searchJobDropdownElement = driver.findElement(By.id("job-title"));
